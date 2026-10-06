@@ -1,6 +1,6 @@
 apksaranarazaq/
 │
-├── index.php                 # halaman homepage selamat datang (pakai navbar yang ada menu loginuser dan loginpeminjam)
+├── index.php                 # halaman homepage selamat datang (pakai navbar yang ada menu loginuser dan loginpelanggan)
 │
 ├── assets/
 │   ├── js/
@@ -37,12 +37,12 @@ apksaranarazaq/
 │   │   │   ├── create.php
 │   │   │   ├── edit.php
 │   │   │   └── show.php
-│   │   ├── pelanggan/
+│   │   ├── peminjam/
 │   │   │   ├── index.php
 │   │   │   ├── create.php
 │   │   │   ├── edit.php
 │   │   │   └── show.php
-│   │   ├── asal/
+│   │   ├── lokasi/
 │   │   │   ├── index.php
 │   │   │   ├── create.php
 │   │   │   ├── edit.php
@@ -75,7 +75,7 @@ apksaranarazaq/
 │   │       ├── laporantahunan.php
 │   │       └── cetaklaporantahunan.php
 │   │
-│   ├── pelanggan/   ← (LOGIN pelanggan)
+│   ├── peminjam/   ← (LOGIN pelanggan)
 │   │   ├── dashboardpelanggan.php  (dashboard semantic dinamis modern minimalis dan responsif sehingga nyaman digunakan oleh pelanggan menggunakan berbagai gadget namun tetap informatif)
 │   │   ├── profil.php  (profil pelanggan yang diambil dari tabel pelanggan menampilan seluruh informasi yang terkandung diddalamnya)
 │   │   └── riwayatpeminjaman.php  (halaman tampil riwayat peminjaman yang dilakukan pelanggan)
